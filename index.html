@@ -187,34 +187,32 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser-->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
-      <h2 class="subtitle has-text-centered">
+      <img src="static/images/frisbee_robot_model.png" alt="Frisbee robot 3D model" loading="lazy"/>
+      <!-- <img src="static/images/frisbee_robot.png" alt="Frisbee robot" loading="lazy"/> -->
+        
+      <!-- TODO: Replace with your description -->
+      <!-- <h2 class="subtitle has-text-centered">
         Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
-      </h2>
+      </h2> -->
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Abstract</h2>
+        <h2 class="title is-3">Problem Statement</h2>
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Ultimate frisbee is a sport that requires players to pass a frisbee disc between each other across long distances. Typically, another player is required to practice throwing and catching, resulting in several limitations to solo practice. If one desires to practice their throwing skills alone, they must spend time finding and manually collecting the frisbee they threw. Practicing catching, on the other hand, is generally impossible to do well without a partner. Another issue arising from solo practice is the repeated bending needed to collect frisbees by hand, which could easily lead to fatigue and joint overuse. Our goal is to improve the quality and feasibility of independent frisbee practice.
           </p>
         </div>
       </div>
@@ -224,97 +222,52 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
 <!-- Video carousel -->
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
+      <h2 class="title is-3">Frisbee Launching</h2>
+
+      <div class="content has-text-justified">
+        <p>
+          The robot launches the frisbee to the user. The design features a large center flywheel and a curved ramp. The center flywheel provides the forward velocity, and the foam padding on the wall will help give the frisbee adequate spin for stability. The ramp ensures the frisbee is stable in the launcher, and it also provides an accurate launching angle in both the pitch axis and the roll axis of the frisbee.
+
+        </p>
+      </div>
+      
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
+  
+      <div class="item item-video1">
+        <!-- TODO: Add poster image for better preview -->
+        <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
+          <!-- Your video file here -->
+          <source src="static/videos/launch.webm" type="video/webm">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Frisbee launch (user's point of view)
+        </h2>
+      </div>
+
+      <div class="item item-video2">
+        <!-- TODO: Add poster image for better preview -->
+        <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
+          <!-- Your video file here -->
+          <source src="static/videos/launch_slowmo.webm" type="video/webm">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Frisbee launch (slow motion top view)
+        </h2>
+      </div>
+
+      <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/launcher_model.png" alt="Launcher model" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle has-text-centered">
+          Launcher model
+        </h2>
+      </div>
+
       </div>
     </div>
   </div>
@@ -322,47 +275,54 @@
 <!-- End video carousel -->
 
 
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
+<!-- Video carousel -->
+<section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <h2 class="title">Poster</h2>
+      <h2 class="title is-3">Frisbee Collection</h2>
 
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
+      <div class="content has-text-justified">
+        <p>
+          After the robot locates the frisbee and orientates itself correctly, the collector lowers the scoop to ground level, closes the scoop to lift the frisbee, elevates it to the same level as the storage, and places the frisbee inside the storage. 
+        </p>
+      </div>
         
+      <div id="results-carousel" class="carousel results-carousel">
+        
+      <div class="item item-video4">
+        <!-- TODO: Add poster image for better preview -->
+        <video poster="" id="video4" controls muted loop height="100%" preload="metadata">
+          <!-- Your video file here -->
+          <source src="static/videos/collector.webm" type="video/webm">
+        </video>
+        <h2 class="subtitle has-text-centered">
+          Frisbee collection
+        </h2>
+      </div>
+
+      <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/collector_model.png" alt="Collector model" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle has-text-centered">
+          Collector model
+        </h2>
+      </div>
+
+      <div class="item">
+        <!-- TODO: Replace with your research result images -->
+        <img src="static/images/vision.png" alt="Collector model" loading="lazy"/>
+        <!-- TODO: Replace with description of this result -->
+        <h2 class="subtitle has-text-centered">
+          Frisbee center detection
+        </h2>
+      </div>
+
       </div>
     </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
-    </div>
+  </div>
 </section>
-<!--End BibTex citation -->
+<!-- End video carousel -->
 
 
   <footer class="footer">
